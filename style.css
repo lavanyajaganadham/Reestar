@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main-container{
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+.main-container p{
+    padding: 10px;
+    color:grey;
+}
+
+.items > div{
+    display: grid;
+    display:inline-block;
+    border:solid black 2px;
+    margin-left:10px;
+}
+
+.items img{
+    width: 300px;
+    height: 400px;
+}
+
+.items button {
+    margin: 10px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom:5px;
+    background-color: black;
+    color:white;
+}
+
+.items{
+    text-align: center;
+    padding:20px;
+}
+
+.contact-us{
+    text-align:center;
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+.contact-us table{
+    display:inline-block;
+}
+
+.contact-us button{
+    background-color: yellow;
+    color:black;
+    width:250px;
+    font-size: large;
+}
+
+.contact-us form{
+    padding:10px;
+    font-size: large;
+}
+
+
